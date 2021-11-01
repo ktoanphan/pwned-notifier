@@ -1,12 +1,12 @@
 # HOW TO TEST 
 
-From the root directory, run:  npm run build 
-This will create a build version of the extension in a "build" folder in the root directory.
+- From the root directory, run:  `npm run build`
+- This will create a build version of the extension in a `build` folder in the root directory.
 
 In Google Chrome:
-- go to chrome://extensions
+- Go to chrome://extensions
 - Click on Load unpacked
-- Browse to the root directory of the extension on your computer and select the "build" folder generated above. 
+- Browse to the root directory of the extension on your computer and select the `build` folder generated above. 
 - Visit a website and click on the extension to see the result. 
 
 Have fun! :)
