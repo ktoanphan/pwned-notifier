@@ -50,10 +50,15 @@ function App() {
       <div className="App">
         <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-          <h2>Pwned Notifier</h2>
+        <h2>Pwned Notifier</h2>
         </div>
-        <h2>{breach.length > 0 && `${site} was found in a data breach. :( `}</h2>
-        <h2>{breach.length === 0 && `${site} was NOT found in a data breach. :) `}</h2>
+        <h2>{breach.length > 0 && `Yikes! ${site} was found in the data breach database. :( `}</h2>
+        <h2>{breach.length === 0 && `Phew! ${site} was NOT found in the data breach database. :) `}</h2>
+        <p>You can see the full list at {` `}
+          <a href="https://haveibeenpwned.com/PwnedWebsites" target="blank">
+            https://haveibeenpwned.com/PwnedWebsites</a>
+        </p>
+        <br></br>
       </div>
     </Fragment>
   );

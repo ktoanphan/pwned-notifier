@@ -1,11 +1,11 @@
 {
-  "name": "Pwned Notifer",
-  "description": "Notify the user if the visitted website was found in a data breach.",
-  "version": "1.0",
+  "name": "Pwned Notifier",
+  "description": "Check if the website being visited had a data breach with a single click!",
+  "version": "1.1",
   "manifest_version": 3,
   "author": "Toan Phan",
 
-  "permissions": ["activeTab", "notifications", "tabs"],
+  "permissions": ["activeTab", "tabs"],
 
   "action": {
     "default_popup": "index.html",
