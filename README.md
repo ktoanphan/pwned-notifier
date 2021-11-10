@@ -7,3 +7,4 @@
 - create a homepage/website for the extension.
 - tweak the extension pop-up interface. 
 - add Notification functionality to the extension.
+- develop Firefox version of the extension.
